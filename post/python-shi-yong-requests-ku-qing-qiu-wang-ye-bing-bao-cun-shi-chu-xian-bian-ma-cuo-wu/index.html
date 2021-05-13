@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>yuanYue</title>
+<title>Python使用requests库请求网页并保存时出现编码错误 | yuanYue</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -75,32 +77,52 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          
+          <h2 class="post-title">Python使用requests库请求网页并保存时出现编码错误</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-05-13</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://yuanyue-byte.github.io/tag/python/">
+                    Python
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p><strong>代码如下</strong></p>
+<pre><code class="language-python">import requests
 
-<div class="archives-container">
-  
-    <h2 class="year">2021</h2>
-    
-      
-        <article class="post">
-          <a href="https://yuanyue-byte.github.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
-            <h2 class="post-title">
-              Python使用requests库请求网页并保存时出现编码错误
-              <small>2021-05-13</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
+if __name__ == '__main__':
+    baseUrl = 'https://fanyi.baidu.com/?aldtype=85#en/zh/'
+    text = input()
+    response = requests.get(baseUrl + text)
+    file = open(file=&quot;html.txt&quot;, mode=&quot;w+&quot;)
+    file.write(response.text)
+    file.close()
+</code></pre>
+<p>运行结果<br>
+<img src="https://img-blog.csdnimg.cn/20210503092320224.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="1" loading="lazy"><br>
+原因：<em>open</em> 方法默认编码方式为 <em>GBK</em> 而我们请求的网页编码方式为 <em>UTF-8</em></p>
+<p>更改代码如下</p>
+<p><code>file = open(file=&quot;html.txt&quot;, mode=&quot;w+&quot;, encoding=&quot;utf-8&quot;)</code></p>
+<p>再次运行：正常<img src="https://img-blog.csdnimg.cn/20210503093113152.png" alt="正常" loading="lazy"></p>
 
-
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+      </div>
+
+      
+
+      <div class="site-footer">
   <div class="slogan">温故而知新</div>
   <div class="social-container">
     
@@ -119,8 +141,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -136,6 +158,5 @@ var app = new Vue({
 
 
 
-    </div>
   </body>
 </html>
