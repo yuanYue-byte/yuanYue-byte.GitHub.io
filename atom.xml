@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com</id>
+    <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-14T13:38:04.135Z</updated>
+    <updated>2021-05-14T14:00:35.749Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com"/>
-    <link rel="self" href="https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com/atom.xml"/>
+    <link rel="alternate" href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io"/>
+    <link rel="self" href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com/images/avatar.png</logo>
-    <icon>https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com/favicon.ico</icon>
+    <logo>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/images/avatar.png</logo>
+    <icon>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
     <entry>
         <title type="html"><![CDATA[Python使用requests库请求网页并保存时出现编码错误]]></title>
-        <id>https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
-        <link href="https://coding-pages-bucket-3567805-8822335-17786-610616-1302637176.cos-website.ap-hongkong.myqcloud.com/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
+        <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
+        <link href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
         </link>
         <updated>2021-05-13T14:10:50.000Z</updated>
         <content type="html"><![CDATA[<p><strong>代码如下</strong></p>
