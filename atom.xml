@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-15T02:36:35.266Z</updated>
+    <updated>2021-05-15T03:08:21.938Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuanYue-byte.GitHub.io"/>
     <link rel="self" href="https://yuanYue-byte.GitHub.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://yuanYue-byte.GitHub.io/images/avatar.png</logo>
     <icon>https://yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
+    <entry>
+        <title type="html"><![CDATA[ Gaoxiaobang-script 高校邦脚本]]></title>
+        <id>https://yuanYue-byte.GitHub.io/post/gaoxiaobang-script-gao-xiao-bang-jiao-ben/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/gaoxiaobang-script-gao-xiao-bang-jiao-ben/">
+        </link>
+        <updated>2021-05-15T03:05:03.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="高校邦刷课脚本运行在-tampermonkey">高校邦刷课脚本运行在 <a href="https://www.tampermonkey.net/">Tampermonkey</a></h3>
+<p>主要功能：</p>
+<ul>
+<li>可自动点击播放.</li>
+<li>讨论题自动复制已有的答案并粘贴提交,若不需要请在代码中按提示删除(注释).</li>
+<li>自动跳过 &quot;作业&quot; &quot;讨论&quot;.</li>
+</ul>
+<p>你有两种使用方法:</p>
+<ul>
+<li>复制 <a href="https://github.com/yuanYue-byte/Gaoxiaobang-script">GitHub Gxb.js</a>全部代码，并粘贴至Tampermonkey(油猴)后即可使用．</li>
+<li>在<a href="https://greasyfork.org/zh-CN/scripts/425374-%E9%AB%98%E6%A0%A1%E9%82%A6%E8%84%9A%E6%9C%AC">Greasy Fork</a>中安装本插件．</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[IntelliJ IDEA 创建JavaWeb项目]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/</id>
