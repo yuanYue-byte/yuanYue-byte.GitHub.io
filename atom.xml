@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-14T14:00:35.749Z</updated>
+    <updated>2021-05-15T02:34:03.134Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io"/>
     <link rel="self" href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/images/avatar.png</logo>
     <icon>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
+    <entry>
+        <title type="html"><![CDATA[IntelliJ IDEA 创建JavaWeb项目]]></title>
+        <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/</id>
+        <link href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/">
+        </link>
+        <updated>2021-05-15T02:32:48.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>1. 点击File 选择New-&gt;Project</strong></p>
+<p><strong>2. 选择Java 点击Next</strong><img src="https://img-blog.csdnimg.cn/20210501174533129.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="2" loading="lazy"></p>
+<p><strong>3. 不勾选 选择点击Next</strong><img src="https://img-blog.csdnimg.cn/20210501174712490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="3" loading="lazy"><br>
+<strong>4. 输入项目名称与项目地址 点击Finish</strong><img src="https://img-blog.csdnimg.cn/20210501174857936.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="4" loading="lazy"><br>
+<strong>5. 在项目上右键 选择Add Framework Support</strong><img src="https://img-blog.csdnimg.cn/20210501175057924.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="5" loading="lazy"><br>
+<strong>6. 勾选Web Application 点击OK</strong><img src="https://img-blog.csdnimg.cn/2021050117521839.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="6" loading="lazy"><br>
+<strong>至此JavaWeb项目便创建完成。</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python使用requests库请求网页并保存时出现编码错误]]></title>
         <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
