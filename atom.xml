@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io</id>
+    <id>https://yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-15T02:35:10.962Z</updated>
+    <updated>2021-05-15T02:36:35.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io"/>
-    <link rel="self" href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/atom.xml"/>
+    <link rel="alternate" href="https://yuanYue-byte.GitHub.io"/>
+    <link rel="self" href="https://yuanYue-byte.GitHub.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/images/avatar.png</logo>
-    <icon>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/favicon.ico</icon>
+    <logo>https://yuanYue-byte.GitHub.io/images/avatar.png</logo>
+    <icon>https://yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
     <entry>
         <title type="html"><![CDATA[IntelliJ IDEA 创建JavaWeb项目]]></title>
-        <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/</id>
-        <link href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/">
+        <id>https://yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/">
         </link>
         <updated>2021-05-15T02:32:48.000Z</updated>
         <content type="html"><![CDATA[<p><strong>1. 点击File 选择New-&gt;Project</strong></p>
@@ -27,8 +27,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Python使用requests库请求网页并保存时出现编码错误]]></title>
-        <id>https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
-        <link href="https://github.com/yuanYue-byte/yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
+        <id>https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
         </link>
         <updated>2021-05-13T14:10:50.000Z</updated>
         <content type="html"><![CDATA[<p><strong>代码如下</strong></p>
