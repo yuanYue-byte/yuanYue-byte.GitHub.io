@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>yuanYue</title>
+<title>【原创】Python批量替换指定目录下文件内容 | yuanYue</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -75,76 +77,65 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          
+          <h2 class="post-title">【原创】Python批量替换指定目录下文件内容</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-05-15</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://yuanYue-byte.GitHub.io/tag/python/">
+                    Python
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <pre><code class="language-Python">import os
+root=&quot;E:\Projects\Coding&quot;
+files=[]
+for dirpath,dirnames,filenames in os.walk(root):
+ for file in filenames:
+  files.append(os.path.join(dirpath,file))
 
-<div class="archives-container">
-  
-    <h2 class="year">2021</h2>
-    
-      
-        <article class="post">
-          <a href="https://yuanYue-byte.GitHub.io/post/yuan-chuang-pi-liang-ti-huan-zhi-ding-mu-lu-xia-wen-jian-nei-rong/">
-            <h2 class="post-title">
-              【原创】Python批量替换指定目录下文件内容
-              <small>2021-05-15</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://yuanYue-byte.GitHub.io/post/fen-xiang-unlock-music-yin-le-jie-suo/">
-            <h2 class="post-title">
-              【分享】Unlock Music 音乐解锁
-              <small>2021-05-15</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://yuanYue-byte.GitHub.io/post/gaoxiaobang-script-gao-xiao-bang-jiao-ben/">
-            <h2 class="post-title">
-               【原创】Gaoxiaobang-script 高校邦脚本
-              <small>2021-05-15</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/">
-            <h2 class="post-title">
-              【原创】IntelliJ IDEA 创建JavaWeb项目
-              <small>2021-05-15</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
-            <h2 class="post-title">
-              【原创】Python使用requests库请求网页并保存时出现编码错误
-              <small>2021-05-13</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
+b=[]
+ContainString=&quot;替换前的内容&quot;
+replaceText=&quot;替换后的内容&quot;
+for file in files:
+    f=open(str(file),'r',encoding='utf-8',errors='ignore')
+    if(ContainString in f.read()):
+        f.seek(0)#文件指针定位到开头
+        line=f.read()
+        f.close()
+        line=line.replace(ContainString,replaceText)
+        f=open(str(file),'w',encoding='utf-8',errors='ignore')
+        f.write(line)
+        f.close()
+        b.append(file)
+</code></pre>
 
-
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://yuanYue-byte.GitHub.io/post/fen-xiang-unlock-music-yin-le-jie-suo/">
+              <h3 class="post-title">
+                下一篇：【分享】Unlock Music 音乐解锁
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
   <div class="slogan">温故而知新</div>
   <div class="social-container">
     
@@ -167,8 +158,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -184,6 +175,5 @@ var app = new Vue({
 
 
 
-    </div>
   </body>
 </html>

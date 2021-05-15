@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-15T03:28:04.458Z</updated>
+    <updated>2021-05-15T04:56:09.126Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuanYue-byte.GitHub.io"/>
     <link rel="self" href="https://yuanYue-byte.GitHub.io/atom.xml"/>
@@ -11,7 +11,51 @@
     <icon>https://yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
     <entry>
-        <title type="html"><![CDATA[ Gaoxiaobang-script 高校邦脚本]]></title>
+        <title type="html"><![CDATA[【原创】Python批量替换指定目录下文件内容]]></title>
+        <id>https://yuanYue-byte.GitHub.io/post/yuan-chuang-pi-liang-ti-huan-zhi-ding-mu-lu-xia-wen-jian-nei-rong/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/yuan-chuang-pi-liang-ti-huan-zhi-ding-mu-lu-xia-wen-jian-nei-rong/">
+        </link>
+        <updated>2021-05-15T04:48:56.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-Python">import os
+root=&quot;E:\Projects\Coding&quot;
+files=[]
+for dirpath,dirnames,filenames in os.walk(root):
+ for file in filenames:
+  files.append(os.path.join(dirpath,file))
+
+b=[]
+ContainString=&quot;替换前的内容&quot;
+replaceText=&quot;替换后的内容&quot;
+for file in files:
+    f=open(str(file),'r',encoding='utf-8',errors='ignore')
+    if(ContainString in f.read()):
+        f.seek(0)#文件指针定位到开头
+        line=f.read()
+        f.close()
+        line=line.replace(ContainString,replaceText)
+        f=open(str(file),'w',encoding='utf-8',errors='ignore')
+        f.write(line)
+        f.close()
+        b.append(file)
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【分享】Unlock Music 音乐解锁]]></title>
+        <id>https://yuanYue-byte.GitHub.io/post/fen-xiang-unlock-music-yin-le-jie-suo/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/fen-xiang-unlock-music-yin-le-jie-suo/">
+        </link>
+        <updated>2021-05-15T04:28:02.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://github.com/ix64/unlock-music">GitHub</a> 项目地址</p>
+<ul>
+<li>可解锁主流音乐播放器的加密音乐文件</li>
+<li>可部署于本地、云</li>
+<li>免费开源</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ 【原创】Gaoxiaobang-script 高校邦脚本]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/gaoxiaobang-script-gao-xiao-bang-jiao-ben/</id>
         <link href="https://yuanYue-byte.GitHub.io/post/gaoxiaobang-script-gao-xiao-bang-jiao-ben/">
         </link>
@@ -31,7 +75,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IntelliJ IDEA 创建JavaWeb项目]]></title>
+        <title type="html"><![CDATA[【原创】IntelliJ IDEA 创建JavaWeb项目]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/</id>
         <link href="https://yuanYue-byte.GitHub.io/post/intellij-idea-chuang-jian-javaweb-xiang-mu/">
         </link>
@@ -46,7 +90,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Python使用requests库请求网页并保存时出现编码错误]]></title>
+        <title type="html"><![CDATA[【原创】Python使用requests库请求网页并保存时出现编码错误]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
         <link href="https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
         </link>
