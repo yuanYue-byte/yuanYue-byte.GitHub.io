@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-17T11:18:07.567Z</updated>
+    <updated>2021-05-17T13:51:03.473Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuanYue-byte.GitHub.io"/>
     <link rel="self" href="https://yuanYue-byte.GitHub.io/atom.xml"/>
@@ -12,6 +12,26 @@ function toast(){alert(&quot;活在当下&quot;);}&lt;/script&gt;&lt;/span&gt;&l
     <logo>https://yuanYue-byte.GitHub.io/images/avatar.png</logo>
     <icon>https://yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
+    <entry>
+        <title type="html"><![CDATA[【转载】关于Android9.0后无法请求Http协议]]></title>
+        <id>https://yuanYue-byte.GitHub.io/post/zhuan-zai-guan-yu-android90-hou-wu-fa-qing-qiu-http-xie-yi/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/zhuan-zai-guan-yu-android90-hou-wu-fa-qing-qiu-http-xie-yi/">
+        </link>
+        <updated>2021-05-17T13:10:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>在使用OKHTTP的时候一直出现调试软件崩溃的问题</p>
+<p>原因：在 Android 6.0 中，取消了对 Apache HTTP 客户端的支持。 从 Android 9 开始，默认情况下该内容库已从 bootclasspath 中移除且不可用于应用。且Android P 限制了明文流量的网络请求，非加密的流量请求都会被系统禁止掉。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在使用OKHTTP的时候一直出现调试软件崩溃的问题</p>
+<p>原因：在 Android 6.0 中，取消了对 Apache HTTP 客户端的支持。 从 Android 9 开始，默认情况下该内容库已从 bootclasspath 中移除且不可用于应用。且Android P 限制了明文流量的网络请求，非加密的流量请求都会被系统禁止掉。</p>
+<!-- more -->
+<p>解决方法如下<br>
+在res目录下新建xml文件夹,文件夹中新建文件network_security_config.xml，文件内容如下<br>
+<code>&lt;network-security-config&gt; &lt;base-config cleartextTrafficPermitted=&quot;true&quot; /&gt; &lt;/network-security-config&gt;</code><br>
+在 <strong>AndroidManifest.xml</strong> 文件中 <strong>Application</strong> 标签下添加如下属性:<br>
+<strong>android:networkSecurityConfig=&quot;@xml/network_security_config&quot;</strong></p>
+<p>来自 <a href="https://blog.csdn.net/code_hero666/article/details/89478122">https://blog.csdn.net/code_hero666/article/details/89478122</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【文章】金圣叹评点西厢记序言]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/jin-sheng-tan-ping-dian-xi-xiang-ji-xu-yan/</id>
