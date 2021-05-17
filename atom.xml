@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-05-17T09:49:28.702Z</updated>
+    <updated>2021-05-17T11:00:37.947Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuanYue-byte.GitHub.io"/>
     <link rel="self" href="https://yuanYue-byte.GitHub.io/atom.xml"/>
@@ -13,12 +13,15 @@ function toast(){alert(&quot;活在当下&quot;);}&lt;/script&gt;&lt;/span&gt;&l
     <icon>https://yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
     <entry>
-        <title type="html"><![CDATA[金圣叹评点西厢记序言]]></title>
+        <title type="html"><![CDATA[【文章】金圣叹评点西厢记序言]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/jin-sheng-tan-ping-dian-xi-xiang-ji-xu-yan/</id>
         <link href="https://yuanYue-byte.GitHub.io/post/jin-sheng-tan-ping-dian-xi-xiang-ji-xu-yan/">
         </link>
         <updated>2021-05-17T09:05:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>或问于圣叹曰：《西厢记》何为而批之刻之也？圣叹悄然动容，起立而对曰：嗟乎！我亦不知其然，然而于我心则诚不能以自已也。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>或问于圣叹曰：《西厢记》何为而批之刻之也？圣叹悄然动容，起立而对曰：嗟乎！我亦不知其然，然而于我心则诚不能以自已也。</p>
+<!-- more -->
 <p>今夫浩荡大劫，自初迄今，我则不知其有几万万年月也。几万万年月皆如水逝云卷，风驰电掣，无不尽去，而至于今年今月而暂有我。此暂有之我，又未尝不水逝云卷，风驰电掣而疾去也，然而幸而犹尚暂有于此。幸而犹尚暂有于此，则我将以何等消遣而消遣之？我比者亦尝欲有所为，既而思之，且未论我之果得为与不得为，亦未论为之果得成与不得成，就使为之而果得为，乃至为之而果得成，是其所为与所成，则有不水逝云卷，风驰电掣而尽去耶？夫未为之而欲为,既为之而尽去，我甚矣，叹欲有所为之无益也。然则我殆无所欲为也？夫我诚无所欲为，则又何不疾作水逝云卷，风驰电掣，顷刻尽去，而又自以犹尚暂有为大幸甚也？甚矣我之无法而作消遣也。</p>
 <p>细思我今日之如是无奈，彼古之人独不曾先我而如是无奈哉？我今日所坐之地，古之人其先坐之，我今日所立之地，古之人先立之者，不可以数计矣。夫古之人之坐于斯，立于斯，必犹如我之今日也。而今日以彼见我，不见古人。彼古人之在时，其不默然知之？然而又自知其无奈，故遂不复言之也。此真不得不致憾于天地也！何其甚不仁也！<strong>既已生我，便应永在；脱不能尔，便应勿生。如之何本无有我，我又未尝哀哀然丐之曰“尔必生我”，而无端而忽然生我？无端而忽然生者，又正是我，无端而忽然生一正是之我，又不容之少住。无端而忽然生之，又不容少住者，又最能闻声感心，多有悲凉。嗟乎，嗟乎！我真不知何处为九原，云何起古人。如使真有九原，真起古人，岂不同此一副眼泪，同欲失声大哭乎哉！</strong></p>
 <p><strong>乃古人则且有大过于我十倍之才与识矣，彼谓天地非有不仁，天地亦真无奈也。欲其无生，或非天地，既为天地，安得不生？夫天地之不得不生，是则诚然有之，而遂谓天地乃适生我，此岂理之当哉？天地之生此芸芸也，天地殊不能知其为谁也。芸芸之被天地生也，芸芸亦皆不必自知其为谁也。必谓天地今日所生之是我，则夫天地明日所生之固非我也。然而天地明日所生，又各各自以为我，则是天地反当茫然不知其罪之果谁属也。夫天地真未尝生我，而生而适然是我，是则我亦听其生而已矣。天地生而适然是我，而天地终亦未尝生我，是则我亦听其水逝云卷，风驰电掣而去而已矣。</strong></p>
@@ -67,12 +70,25 @@ for file in files:
         <link href="https://yuanYue-byte.GitHub.io/post/fen-xiang-unlock-music-yin-le-jie-suo/">
         </link>
         <updated>2021-05-15T04:28:02.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://github.com/ix64/unlock-music">GitHub</a> 项目地址</p>
+        <summary type="html"><![CDATA[<blockquote>
+<p>优点</p>
+</blockquote>
 <ul>
 <li>可解锁主流音乐播放器的加密音乐文件</li>
 <li>可部署于本地、云</li>
 <li>免费开源</li>
 </ul>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>优点</p>
+</blockquote>
+<ul>
+<li>可解锁主流音乐播放器的加密音乐文件</li>
+<li>可部署于本地、云</li>
+<li>免费开源</li>
+</ul>
+<!-- more -->
+<p><a href="https://github.com/ix64/unlock-music">GitHub</a> 项目地址</p>
 ]]></content>
     </entry>
     <entry>
@@ -81,6 +97,14 @@ for file in files:
         <link href="https://yuanYue-byte.GitHub.io/post/gaoxiaobang-script-gao-xiao-bang-jiao-ben/">
         </link>
         <updated>2021-05-15T03:05:03.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="高校邦刷课脚本运行在-tampermonkey">高校邦刷课脚本运行在 <a href="https://www.tampermonkey.net/">Tampermonkey</a></h3>
+<p>主要功能：</p>
+<ul>
+<li>可自动点击播放.</li>
+<li>讨论题自动复制已有的答案并粘贴提交,若不需要请在代码中按提示删除(注释).</li>
+<li>自动跳过 &quot;作业&quot; &quot;讨论&quot;.</li>
+</ul>
+]]></summary>
         <content type="html"><![CDATA[<h3 id="高校邦刷课脚本运行在-tampermonkey">高校邦刷课脚本运行在 <a href="https://www.tampermonkey.net/">Tampermonkey</a></h3>
 <p>主要功能：</p>
 <ul>
@@ -88,6 +112,7 @@ for file in files:
 <li>讨论题自动复制已有的答案并粘贴提交,若不需要请在代码中按提示删除(注释).</li>
 <li>自动跳过 &quot;作业&quot; &quot;讨论&quot;.</li>
 </ul>
+<!-- more -->
 <p>你有两种使用方法:</p>
 <ul>
 <li>复制 <a href="https://github.com/yuanYue-byte/Gaoxiaobang-script">GitHub Gxb.js</a>全部代码，并粘贴至Tampermonkey(油猴)后即可使用．</li>
