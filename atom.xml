@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuanYue-byte.GitHub.io</id>
     <title>yuanYue</title>
-    <updated>2021-06-07T13:36:04.073Z</updated>
+    <updated>2021-06-08T08:19:02.435Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuanYue-byte.GitHub.io"/>
     <link rel="self" href="https://yuanYue-byte.GitHub.io/atom.xml"/>
@@ -12,6 +12,36 @@ function toast(){alert(&quot;活在当下&quot;);}&lt;/script&gt;&lt;/span&gt;&l
     <logo>https://yuanYue-byte.GitHub.io/images/avatar.png</logo>
     <icon>https://yuanYue-byte.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2021, yuanYue</rights>
+    <entry>
+        <title type="html"><![CDATA[【原创】PyCharm+Pyside+QtDesigner+PyUic+PyRcc]]></title>
+        <id>https://yuanYue-byte.GitHub.io/post/5JyMn4s-D/</id>
+        <link href="https://yuanYue-byte.GitHub.io/post/5JyMn4s-D/">
+        </link>
+        <updated>2021-06-08T07:45:48.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="pycharm下如何高效使用pyside库开发gui界面">PyCharm下如何高效使用Pyside库开发GUI界面</h2>
+<ul>
+<li>1.下载安装PySide库<br>
+Ctrl+Alt+S进入设置界面 选择Python Interpreter 点击＋号<br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623138823806.png" alt="" loading="lazy"><br>
+搜索Pyside并下载 这里我选择Pyside6<br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623138978690.png" alt="" loading="lazy"></li>
+<li>2.配置QtDesigner<br>
+在设置界面选择External Tools点击+号 Program选择pyside6-designer.exe<br>
+一般情况下路径为 <em>工作目录/venv/Scripts/</em><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623139640782.png" alt="" loading="lazy"><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623139533521.png" alt="" loading="lazy"></li>
+<li>3.配置PyUic<br>
+Program选择pyside6-uic.exe<br>
+Argument填入 <code>$FileName$ -o $FileNameWithoutExtension$.py</code><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623139744887.png" alt="" loading="lazy"></li>
+<li>4.配置PyRcc<br>
+Program选择 pyside6-rcc.exe<br>
+Argument填入<code>$FileName$ -o $FileNameWithoutExtension$rc.py</code><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623140137187.png" alt="" loading="lazy"></li>
+</ul>
+<p><em>注意Working directory应选择你的工作目录而不是工具所在目录</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【原创】编程语言学习]]></title>
         <id>https://yuanYue-byte.GitHub.io/post/yuan-chuang-kotlin-xue-xi/</id>
@@ -500,31 +530,6 @@ for file in files:
 <strong>5. 在项目上右键 选择Add Framework Support</strong><img src="https://img-blog.csdnimg.cn/20210501175057924.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="5" loading="lazy"><br>
 <strong>6. 勾选Web Application 点击OK</strong><img src="https://img-blog.csdnimg.cn/2021050117521839.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="6" loading="lazy"><br>
 <strong>至此JavaWeb项目便创建完成。</strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【原创】Python使用requests库请求网页并保存时出现编码错误]]></title>
-        <id>https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/</id>
-        <link href="https://yuanYue-byte.GitHub.io/post/python-shi-yong-requests-ku-qing-qiu-wang-ye-bing-bao-cun-shi-chu-xian-bian-ma-cuo-wu/">
-        </link>
-        <updated>2021-05-13T14:10:50.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>代码如下</strong></p>
-<pre><code class="language-python">import requests
-
-if __name__ == '__main__':
-    baseUrl = 'https://fanyi.baidu.com/?aldtype=85#en/zh/'
-    text = input()
-    response = requests.get(baseUrl + text)
-    file = open(file=&quot;html.txt&quot;, mode=&quot;w+&quot;)
-    file.write(response.text)
-    file.close()
-</code></pre>
-<p>运行结果<br>
-<img src="https://img-blog.csdnimg.cn/20210503092320224.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzQwNTI2MDE5,size_16,color_FFFFFF,t_70" alt="1" loading="lazy"><br>
-原因：<em>open</em> 方法默认编码方式为 <em>GBK</em> 而我们请求的网页编码方式为 <em>UTF-8</em></p>
-<p>更改代码如下</p>
-<p><code>file = open(file=&quot;html.txt&quot;, mode=&quot;w+&quot;, encoding=&quot;utf-8&quot;)</code></p>
-<p>再次运行：正常<img src="https://img-blog.csdnimg.cn/20210503093113152.png" alt="正常" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>

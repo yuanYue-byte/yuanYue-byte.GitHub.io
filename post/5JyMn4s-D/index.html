@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>单片机 | yuanYue</title>
+<title>【原创】PyCharm+Pyside+QtDesigner+PyUic+PyRcc | yuanYue</title>
 <meta name="description" content="&lt;span id=&#34;jinrishici-sentence&#34; onclick=&#34;toast()&#34;&gt;温故知新
 &lt;script&gt;
 function toast(){alert(&#34;活在当下&#34;);}&lt;/script&gt;&lt;/span&gt;&lt;script src=&#34;https://sdk.jinrishici.com/v2/browser/jinrishici.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;">
@@ -80,55 +80,52 @@ function toast(){alert(&#34;活在当下&#34;);}&lt;/script&gt;&lt;/span&gt;&lt;
 
 
       <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">【原创】PyCharm+Pyside+QtDesigner+PyUic+PyRcc</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-06-08</span>
+            
+          </div>
+          <div class="post-content">
+            <h2 id="pycharm下如何高效使用pyside库开发gui界面">PyCharm下如何高效使用Pyside库开发GUI界面</h2>
+<ul>
+<li>1.下载安装PySide库<br>
+Ctrl+Alt+S进入设置界面 选择Python Interpreter 点击＋号<br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623138823806.png" alt="" loading="lazy"><br>
+搜索Pyside并下载 这里我选择Pyside6<br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623138978690.png" alt="" loading="lazy"></li>
+<li>2.配置QtDesigner<br>
+在设置界面选择External Tools点击+号 Program选择pyside6-designer.exe<br>
+一般情况下路径为 <em>工作目录/venv/Scripts/</em><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623139640782.png" alt="" loading="lazy"><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623139533521.png" alt="" loading="lazy"></li>
+<li>3.配置PyUic<br>
+Program选择pyside6-uic.exe<br>
+Argument填入 <code>$FileName$ -o $FileNameWithoutExtension$.py</code><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623139744887.png" alt="" loading="lazy"></li>
+<li>4.配置PyRcc<br>
+Program选择 pyside6-rcc.exe<br>
+Argument填入<code>$FileName$ -o $FileNameWithoutExtension$rc.py</code><br>
+<img src="https://yuanYue-byte.GitHub.io/post-images/1623140137187.png" alt="" loading="lazy"></li>
+</ul>
+<p><em>注意Working directory应选择你的工作目录而不是工具所在目录</em></p>
 
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 单片机
-          </h2> 
+          </div>
         </div>
 
         
-<section class="post-item">
-    <div class="content">
-      <a href="https://yuanYue-byte.GitHub.io/post/fen-xiang-stc89c52-dan-pian-ji-zui-xiao-xi-tong-yuan-li-tu/">
-        <h2 class="post-title">【分享】STC89C52单片机最小系统原理图</h2>
-      </a>
-      <div class="post-abstract">
-        
+          <div class="next-post">
+            <a class="purple-link" href="https://yuanYue-byte.GitHub.io/post/yuan-chuang-kotlin-xue-xi/">
+              <h3 class="post-title">
+                下一篇：【原创】编程语言学习
+              </h3>
+            </a>
+          </div>
+          
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-05-21</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://yuanYue-byte.GitHub.io/tag/BN6_0Cg6p/">
-                单片机
-                
-                  ，
-                
-              </a>
-            
-              <a href="https://yuanYue-byte.GitHub.io/tag/AiDsyOcIKb/">
-                51单片机
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
 
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
+      
 
       <div class="site-footer">
   <div class="slogan"><span id="jinrishici-sentence" onclick="toast()">温故知新
